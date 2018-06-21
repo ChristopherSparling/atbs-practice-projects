@@ -14,6 +14,9 @@ lines = pyperclip.paste()
 print(lines) 
 
 lines = lines.split('\n')
-for index in  range(len(lines)):
+
+for index in range(len(lines)):
     lines[index] = '* ' + lines[index]
-    print(lines[index])
+
+text = '\n'.join(lines)
+pyperclip.copy(text)
