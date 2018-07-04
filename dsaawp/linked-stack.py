@@ -32,7 +32,7 @@ class LinkedStack:
         elem = self._head._element
         self._head = self._head._next
         self._size -= 1
-        return elem
+        return elem 
 
 new_stack = LinkedStack()
 

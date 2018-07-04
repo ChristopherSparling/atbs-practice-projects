@@ -1,3 +1,4 @@
+# The textbook's solution used two dummy nodes to serve as the header and tail
 class DoubleLinkedList:
 
     class _DoubleNode:
